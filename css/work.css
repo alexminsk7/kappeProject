@@ -1,0 +1,123 @@
+.wrap {
+	padding: 1.56vw;
+	margin: 1.56vw;
+	background-color: #fff;
+}
+.info_work__box .left_info, 
+.info_work__box .right_info,
+.info_about__box .left_info, 
+.info_about__box .right_info {
+	width: 48%;
+}
+.info_work__box .left_info .left_info__img {
+	width: 100%;
+	overflow: hidden;
+	height: 29.16vw;
+}
+.info_work__box .left_info .left_info__img img,
+.left_info .left_info__about img {
+	/* width: 100%; */
+	/* height: auto; */
+	height: 29.16vw;
+	transform: translateX(-7.03vw);
+}
+.info_work__box .left_info .left_info__about-text,
+.info_about__box .about {
+	margin-top: 1.3vw;
+	padding-bottom: 1.6vw;
+	border-bottom: 1px solid #e6e6e6;
+	color: #a3a3a3;
+	font-size: 0.93vw;
+	line-height: 1.56vw;
+}
+.info_work__box .left_info .left_info__about-text h1,
+.title-info, .info_about__box .about h1 {
+	color: #000000;
+	font-size: 1.25vw;
+	font-weight: 300;
+	line-height: 1.35vw;
+	margin-bottom: 1vw;
+}
+.info_work__box .left_info .left_info__about-text p,
+.info_about__box .about p {
+	margin-bottom: 2.39vw;
+}
+.info_work__box .left_info .left_info__about-text p:last-of-type,
+.info_about__box .about p:last-of-type {
+	margin-bottom: 0;
+}
+.list_r_pr, .r_pr,
+.stuf_box  {
+	margin-top: 1.56vw;
+}
+.list_r_pr a {
+	display: block;
+	width: 33.33%;
+	height: 9.47vw;
+	overflow: hidden;
+	background: #fff url(../img/Faraday_Future_Logo.png) center center no-repeat / cover;
+}
+.list_r_pr a img {
+	width: 100%; 
+	/* margin:15px auto 25px; */
+}
+.right_info__pr li {
+	cursor: pointer;
+	display: flex; 
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 1vw;
+	line-height: 1.56vw;
+	color: #848484;
+	padding: 0.72vw 0;
+	border-bottom: 1px solid #e6e6e6;
+}
+.right_info__pr li img {
+	/* margin-right: 0.72vw; */
+	margin-right: 1.09vw;
+}
+.right_info__pr, 
+.tags,
+.gall, 
+.our,
+.testimonials,
+.service {
+	margin-bottom: 1.56vw;
+}
+.tag {
+	border: 1px solid #dbdbdb;
+	padding: 0.72vw 0.93vw;
+	font-size: 0.67vw;
+	margin-right: 0.52vw;
+	border-radius: 6px;
+	color: #a3a3a3;
+}
+.tag:last-of-type {
+	margin-right: 0;
+}
+.img_gal {
+	/* margin-top: 1vw; */
+	width: 4.06vw;
+	height: 4.06vw;
+	overflow: hidden;
+	margin-right: 0.62vw;
+	margin-bottom: 0.62vw;
+	cursor: pointer;
+}
+.img_gal img {
+	height: 100%;
+}
+.pr_f li {
+	display: flex; 
+	flex-flow: row nowrap;
+	align-items: center;
+	color: #848484;
+	font-size: 0.72vw;
+	margin-bottom: 1vw;
+}
+.pr_f li svg {
+	fill: #848484;
+	height: 0.46vw;
+	margin-right: 1vw;
+}

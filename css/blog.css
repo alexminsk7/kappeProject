@@ -1,0 +1,66 @@
+
+.box_post {
+	width: 15.31vw;
+	height: auto;
+	margin-bottom: 1.3vw;
+	background-color: #fff;
+	overflow: hidden;
+	color: #9c9c9c;
+	font-size: 0.67vw;
+	line-height: 1.14vw;
+	outline: 1px solid red;
+}
+.img_post {
+	width: 100%;
+	overflow: hidden;
+}
+.img_post img {
+	height: 100%;
+	width: 100%;
+}
+.img_post_h1 {
+	height: 12vw;
+}
+.img_post_h2 {
+	height: 13.6vw;
+}
+.img_post_h3 {
+	height: 9.58vw;
+}
+.img_post_h4 {
+	height: 7.34vw;
+}
+.img_post_h5 {
+	height: 19vw;
+}
+.img_post_h6 {
+	height: 8.75vw;
+}
+.img_post_h7 {
+	height: 13.8vw;
+}
+.about_post {
+	padding: 1vw;
+	border-bottom: 1px solid #e4e4e4;
+}
+.about_post h2 {
+	color: #242424;
+	font-size: 0.93vw;
+	margin-bottom: 0.78vw;
+	font-weight: 400;
+}
+.info_post {
+	padding: 1vw;
+}
+.info_post svg {
+	height: 0.83vw;
+	fill: #9c9c9c;
+	margin-right: 0.5vw;
+}
+.com_post {
+	/* padding: 0; */
+	margin-right: 1vw;
+}
+.date_post {
+	/* padding: 0; */
+}
